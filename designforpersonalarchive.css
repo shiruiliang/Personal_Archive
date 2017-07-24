@@ -1,0 +1,20 @@
+h1{
+   font-family: "Stencil Std" ;
+   font-size: 72px;
+   background: rgba(250, 248, 112, .5);
+   margin-top: 0px;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+h2{
+   font-family: "Adobe Gothic Std";
+   text-align: center;
+}
+
+section{
+   background: rgba(250, 173, 172, .5);
+   width: 200px;
+   height: 50px;
+   margin: auto;
+}

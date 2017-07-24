@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+}
+
+h1{
+	background-color: rgb(145, 29, 29);
+	color: white;
+	font-family: "Helvetica";
+	font-size: 48px;
+	margin: 0px;
+	line-height:90px;
+}
+
+h2{
+    display: inline;
+    background-color: rgb(190, 63, 63);
+    font-family:"Avenir";
+    font-weight: regular;
+    font-size: 18px;
+    margin: 175px;
+    color: white;
+    
+}
+
+.smallheadings{
+    background: rgb(190, 63, 63);
+}
+
+h5{
+    font-family: "Helvetica";
+    font-size: 20px;
+    background-color: rgb(228, 119, 119);
+    color: white;
+    margin: 0px;
+    line-height: 30px;
+    
+}
+
+h3{
+    font-family: "Helvetica";
+    font-size: 16px;
+    line-height:50px;
+}
+
+h4{
+    color: rgb(104, 99, 99);
+    font-family: "Helvetica";
+    font-size: 13px;
+    line-height: 50px;
+}
+
+.section{
+    border: 1px solid #979797;
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+}
+
+.content img{
+    width: 60px;
+    height: 50px;
+    margin-right: 850px;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: inline;
+    position: relative;
+    bottom: 105px;
+    
+  
+}
+
+.content{
+    float: right;
+    width: 920px;
+    width:920px;
+    height:920px;
+    margin-left: 10px;
+    overflow: scroll;
+    }
+
+.partoftitle{
+    font-family: "Helvetica";
+    font-size:20px;
+}
+
+h6{
+    font-family: "Helvetica";
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.intro{
+    margin-left: 100px;
+    margin-top: 45px;
+    margin-bottom:30px;
+    margin-right: 700px;
+    position: relative;
+    right: 25px;
+    bottom: 20px;
+}
+
+p{
+    font-family: "Helvetica";
+    font-size: 16px;
+    width: 850px;
+    position: relative;
+    bottom: 50px;
+    line-height: 25px;
+}
+
+.time{
+    color: rgb(104, 99, 99);
+    font-family: "Helvetica";
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.jmailcom{
+    font-family: "Helvetica";
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.container{ 
+    position: absolute;
+    left: 400px;
+    width: 100px;
+    height: 80px;
+    top: 350px;
+}
+
+.alarm{
+    color: red;
+    font-family: "Helvetica";
+    font-size: 144px;
+    position: relative;
+    left: 100px;
+    top: 30px;
+    font-weight: bold;
+    
+}
+
+.smalleralarm{
+    color: red;
+    font-family: "Helvetica";
+    font-size: 72px;
+    position: relative;
+    left: 180px;
+    top: 50px;
+}
+
+.inbox{
+    overflow: scroll;
+}
+
+.section:hover{
+    background: rgb(242, 197, 197);
+}
+
+.current{
+    background: rgb(242, 197, 197);
+    width: 312px;
+}
+
+/* unvisited link */
+a {
+ color: black;
+ text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+     text-decoration:none;
+}
+
+
+/* selected link */
+a:active {
+    color: black;
+    text-decoration:none;
+}
+
+
+
+    
+
+
+
+
+    
+    
+    
+
+
+    
+    
+    
+    

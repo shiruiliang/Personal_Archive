@@ -1,0 +1,58 @@
+div is block element
+static: cannot be moved
+relative: top bottom left right
+absolute: 
+fixed: fix the element on certain place
+z-index: how back and forward the boxes appear, the higher the number, the forwarder it appears.
+float
+clear
+
+img: inline
+need to specify if you want to change it into "block"
+
+short hand1: clock top right bottom left
+short hand2: top-bottom right-left`2
+
+repeat: 
+
+short hand: 
+background: (img) (repeat?) (position)
+
+relative unit: em， 1em=16px, in relation to the previous-set-up font size
+[ html{
+       font-size: --px;
+}
+  h1{
+       font-size: --rem;
+}
+
+non-text: percentage
+parent element{
+      width: --px;
+}
+sub element{
+      height: --%;
+}
+
+the relative padding and relative margin are calculated based on the width. 
+
+min-（width）
+max-（width）
+
+media queries: 
+@media only screen and (max-width:) 
+orientation:landscape(横着的） portrait(竖着的）
+breakpoint: 
+
+transition: <property><duration><timing-function(ease...)><delay>
+
+easings.net
+
+transform: rotate(360deg);
+           scaleX
+           scaleY
+           scale(4,2)
+           
+translate(a type of transform, move sth)
+
+

@@ -1,0 +1,61 @@
+h1{
+  background: rgb(153, 175, 34);
+  color: black;
+  font-size: 50px;
+  font-family: "Chalkduster"; Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  }
+  
+h2{
+  color: maroon;
+  font-size: 15px;
+  font-family: "Marker Felt";
+  background: rgba(247, 155, 56, .9);
+  font-weight: bold;
+  }
+  
+h3{
+  color: black;
+  font-size: 10px;
+  font-family: "OCR A Std";
+  }
+  
+h4{
+  color: maroon;
+  font-size: 20px;
+  font-family: "Marker Felt";
+  background: rgb(153, 175, 34);
+  font-weight: bold;
+  }
+
+    
+section{
+    display: inline-block;
+    border: 0px; 
+    height: 30px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    margin-left: 5px; 
+    margin-top: 10px;
+    padding:0px;
+    width: 150px;
+    }
+    
+.background{
+  background-image: url("/Users/liang/Desktop/personal_archive/concretetweet/final.png");
+  background-size: cover;
+  background-attachment: fixed;
+  }
+
+img{
+  height: 700px;
+  width: 890px;
+  }
+  
+.adult{
+position: relative;
+bottom: 11.5px;
+  }
+  
+
+
