@@ -8,6 +8,7 @@ body {
   background: white;
   margin: 30px auto;
   position: relative;
+ 
 }
 
 .table{
@@ -26,6 +27,7 @@ body {
   bottom: 50px;
   left: 150px;
   top: 500px;
+  z-index: 2;
 }
 
 .book-two{
@@ -35,6 +37,7 @@ body {
   position: relative;
   top: 450px;
   left: 155px;
+  z-index: 2;
 }
 
 .book-three{
@@ -44,7 +47,7 @@ body {
   left: 155px;
   top: 412px;
   background: red;
-  
+  z-index: 2;
 }
 
 .mainstick{
@@ -52,9 +55,291 @@ body {
     width: 5px;
     height: 200px;
     position: relative;
-    left: 465px;
+    left: 500px;
     bottom: 40px;
+    transform: rotate(20deg);
+    z-index: 2;
 }
+
+.flower{
+   margin: 50px 0;
+   position: relative;
+   bottom: 1280px;
+   left: 400px;
+   display: block;
+   color: rgb(247, 203, 248);
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid rgb(247, 125, 243);
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+   z-index: 2;
+}
+.flower:before {
+   border-bottom: 80px solid rgb(247, 125, 243);
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+   z-index: 2;
+}
+.flower:after {
+   position: absolute;
+   display: block;
+   color: rgb(247, 203, 248);
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid rgb(247, 125, 243);
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+   z-index: 2;
+}
+
+.flower2{
+   margin: 50px 0;
+   position: relative;
+   bottom:1270px;
+   left: 460px;
+   display: block;
+   color: rgb(247, 203, 248);
+   width: 0px;
+   height: 0px;
+   border-right:  80px solid transparent;
+   border-bottom: 50px  solid rgb(249, 224, 248);
+   border-left:   80px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+   z-index: 2;
+}
+.flower2:before {
+   border-bottom: 80px solid rgb(249, 224, 248);
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+   z-index: 2;
+}
+.flower2:after {
+   position: absolute;
+   display: block;
+   color: rgb(247, 203, 248);
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid rgb(249, 224, 248);
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+   z-index: 2;
+}
+
+.flower3{
+   margin: 50px 0;
+   position: relative;
+   bottom: 1320px;
+   left: 250px;
+   display: block;
+   color: rgb(246, 159, 243);
+   width: 0px;
+   height: 0px;
+   border-right: 120px solid transparent;
+   border-bottom: 80px solid rgb(246, 159, 243);
+   border-left: 120px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+   z-index: 2;
+}
+.flower3:before {
+   border-bottom: 80px solid rgb(246, 159, 243);
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+   z-index: 2;
+}
+.flower3:after {
+   position: absolute;
+   display: block;
+   color: rgb(246, 159, 243);
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid rgb(246, 159, 243);
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+   z-index: 2;
+}
+
+.flower4{
+   margin: 50px 0;
+   position: relative;
+   bottom: 1550px;
+   left: 370px;
+   display: block;
+   color: rgba(247, 192, 245, .7);
+   width: 0px;
+   height: 0px;
+   border-right: 50px solid transparent;
+   border-bottom: 50px solid rgba(247, 192, 245, .7);
+   border-left: 80px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+   z-index: 2;
+}
+.flower4:before {
+   border-bottom: 80px solid rgba(247, 192, 245, .7);
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+   z-index: 2;
+}
+.flower4:after {
+   position: absolute;
+   display: block;
+   color: rgba(247, 192, 245, .7);
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid rgba(247, 192, 245, .7);
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+   z-index: 2;
+}
+					
+					
+
+.mainstick2{
+    background: green;
+    width: 5px;
+    height: 250px;
+    position: relative;
+    left: 470px;
+    bottom: 300px;
+    transform: rotate(-5deg);
+    position: relative; 
+    z-index: 2;
+}
+   
+ .mainstick3{
+    background: green;
+    width: 5px;
+    height: 200px;
+    position: relative;
+    left: 420px;
+    bottom: 500px;
+    transform: rotate(-45deg);
+    position: relative;
+    z-index: 2;
+}
+
+.mainstick4{
+    background: green;
+    width: 5px;
+    height: 260px;
+    position: relative;
+    left: 490px;
+    bottom: 800px;
+    transform: rotate(2deg);
+    position: relative; 
+    z-index: 2;
+}
+    
+.leaf1{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid green;
+    border-left: 150px solid transparent;
+    position: relative;
+    bottom: 950px;
+    left: 480px;
+    transform:rotate(-30deg);
+    z-index: 2;
+}
+
+.leaf2{
+    width: 0;
+    height: 0;
+    border-top: 50px solid green;
+    border-left: 200px solid transparent;
+    position: relative;
+    bottom: 1040px;
+    left: 310px;
+    transform: rotate(70deg);
+    z-index: 2;
+}
+				
+					    
 
 .cup {
   width: 0;
@@ -68,6 +353,7 @@ body {
   position: relative;
   left: 350px;
   top: 180px;
+  z-index: 2;
 }
 
 .fruit-1{
@@ -79,8 +365,112 @@ body {
 	border-radius: 100px / 50px;
 	position: relative;
     left: 218px;
-    top: 120px;
+    bottom:1540px;
+    z-index: 2;
+    background: linear-gradient(15deg, #fa5c32 50%, #14640c);
 }
+
+.cupstand{
+    width: 28px;
+    height: 100px;
+    position:relative;
+    bottom:1350px;
+    left:455px;
+    background: rgba(245, 249, 144, .5);
+    z-index: 2;
+}
+
+.cupbottom{
+	width: 100px;
+	height: 50px;
+	background: rgba(245, 249, 144, .5);
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: relative;
+    bottom: 1358px;
+    left: 420px;
+    z-index: 2;
+}
+
+.fruit-2 {
+	width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, #d0f75b 50%, #0d4f15);
+   background-size: 3px 3px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 100px;
+    z-index: 4;
+    position: relative;
+    bottom: 1660px;
+    left: 400px;
+    z-index: 1;
+}
+
+.fruit-3{
+   display:block;
+   width: 150px;
+   height: 190px;
+   background: linear-gradient(45deg, #f7f93e 50%, #1e7d19);
+   background-size: 30px 30px;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+   z-index: 2;
+   position: relative;
+   bottom: 1850px;
+   left: 650px;
+}
+
+.pieappleleaf1{
+  position: relative;
+  bottom:2070px;
+  left:658px;
+  padding: 12px;
+  margin-bottom: 6px;
+  height: 5px;
+  width: 100px;
+}
+
+.pieappleleaf1:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 51%;
+  background: green;
+  -webkit-transform: skew(0deg, 6deg);
+  -moz-transform: skew(0deg, 6deg);
+  -ms-transform: skew(0deg, 6deg);
+  -o-transform: skew(0deg, 6deg);
+  transform: skew(0deg, 30deg);
+}
+.pieappleleaf1:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background: green;
+  -webkit-transform: skew(0deg, -6deg);
+  -moz-transform: skew(0deg, -6deg);
+  -ms-transform: skew(0deg, -6deg);
+  -o-transform: skew(0deg, -6deg);
+  transform: skew(0deg, -30deg);
+}​
+
+
+
+
+
+
+
+
+
+
+.
 
 
 /* Cleaner, but slightly less support: use "50%" as value */
