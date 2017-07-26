@@ -25,7 +25,7 @@ h3{
   }
   
 .background{
-  background-image: url("/Users/liang/Desktop/personal_archive/concretetweet/final.png");
+  background-image: url("concretetweet/final.png");
   background-size: cover;
   background-attachment: fixed;
   }
