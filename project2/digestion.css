@@ -115,3 +115,7 @@
 .frame{
 background: rgb(256, 249, 178);
 }
+
+body{
+    cursor: url("/Users/liang/Desktop/personal_archive/project2/cherry.png"), auto;
+}
