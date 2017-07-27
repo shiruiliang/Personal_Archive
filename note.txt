@@ -1,0 +1,67 @@
+string: surrounded by '...' or "..."
+number: 1,2,3 (no quote)
+boolean: true or false
+
+math operators(in console.log)
++ 
+-
+*
+/
+
+random number:
+Math.random();
+
+*random between0 and 50
+Math.random()*50
+
+comment: /*  */
+
+variable: var myName = ' ' "myName is chosen by the developer"
+
+string interpolation:
+var xxx = ---
+console.log('I am ' + xxx + '.');
+//Output: 'I am ---.'
+
+var xxx = true or false;
+if (xxx) {
+   console.log('---');
+} else {
+   console.log('--');
+}
+
+var xxx = 一个数字
+if (xxx >. <. =){
+     console.log('---');
+} else {
+   console.log('--');
+}
+
+===check whether two things are equal to each other
+
+else if: more possibilities
+
+both must be true &&
+either can be true ||
+
+parameter: variables we can set when we call the function
+
+var outside the function is in global scope, 
+inside the function is in that function
+
+store data:
+var list = [ '---', '---', '---']
+var listItem = list[---]
+.length : show the number of listitems
+push(): add new items
+
+loops
+for: known amount of time
+while: unknown amount of time
+
+.hide(); hide thing
+.show(); show thing
+.fadeIn
+ 
+ 
+         
