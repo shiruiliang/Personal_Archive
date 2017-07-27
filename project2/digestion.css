@@ -156,6 +156,9 @@ body{
     height: 100px;
     background-color: red;
    display: none;
+   position: absolute;
+   top: 20px;
+   left:20px;
 }
 
 
