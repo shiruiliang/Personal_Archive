@@ -22,7 +22,7 @@ body{
 .cherry{
   position: absolute;
   left: 167px;
-  top:15px;
+  top:30px;
   z-index: 2;
   animation: move 2s ease;
   animation-delay: 2s;
@@ -39,7 +39,7 @@ body{
   height: 20px;
   background: rgb(9, 225, 244);
   position: absolute;
-  top: 120px;
+  top: 135px;
   left: 20px;
   border-radius: 10px;
 }
@@ -49,7 +49,7 @@ body{
   height: 20px;
   background:  rgb(9, 225, 244); 
   position: absolute;
-  top: 90px;
+  top: 105px;
   left: 30px;
   border-radius: 10px;
 }
@@ -59,7 +59,7 @@ body{
   height: 20px;
   background: rgb(9, 225, 244); 
   position: absolute;
-  top: 60px;
+  top: 75px;
   left: 40px;
   border-radius: 10px;
 }
@@ -72,7 +72,7 @@ body{
     border-bottom: 30px solid rgb(9, 225, 244);
     position: absolute;
     left: 55px;
-    top:20px;
+    top:35px;
 }
 				
 
@@ -81,7 +81,7 @@ body{
   height: 20px;
   background: rgb(9, 225, 244); 
   position: absolute;
-  top: 120px;
+  top: 135px;
   left: 125px;
   border-radius: 10px;
 }
@@ -91,7 +91,7 @@ body{
   height: 20px;
   background: rgb(9, 225, 244); 
   position: absolute;
-  top: 90px;
+  top: 105px;
   left: 135px;
   border-radius: 10px;
 }
@@ -101,7 +101,7 @@ body{
   height: 20px;
   background: rgb(9, 225, 244); 
   position: absolute;
-  top: 60px;
+  top: 75px;
   left: 145px;
   border-radius: 10px;
 }
@@ -114,7 +114,7 @@ body{
     border-bottom: 30px solid rgb(9, 225, 244);
     position: absolute;
     left: 160px;
-    top:20px;
+    top:35px;
 }
 
 .fork{
@@ -136,8 +136,8 @@ body{
    background-color: grey;
    position: absolute;
    left: 270px;
-   top: 45px;
-   transform: rotate(27deg)
+   top: 60px;
+   transform: rotate(27deg);
 }
 
 .tableware2{
@@ -149,7 +149,7 @@ body{
 	transform: rotate(27deg);
     position: absolute;
     left: 278px;
-    top: 40px;
+    top: 55px;
 }
 
 .tableware3{
@@ -159,7 +159,7 @@ body{
     transform: rotate(27deg);
     position: absolute;
     left: 293px;
-    top: 14px;
+    top: 29px;
 }
 
 .tableware4{
@@ -169,7 +169,7 @@ body{
     transform: rotate(27deg);
     position: absolute;
     left: 303px;
-    top: 18px;
+    top: 33px;
 }
 
 .tableware5{
@@ -179,7 +179,7 @@ body{
     transform: rotate(27deg);
     position: absolute;
     left: 314px;
-    top: 23px;
+    top: 38px;
 }
 
 .tableware6{
@@ -188,7 +188,7 @@ body{
     background: grey;
     position: absolute;
     left: 350px;
-    top: 65px;
+    top: 80px;
     transform: rotate(-27deg);
 }
 
@@ -199,7 +199,7 @@ body{
     border-radius: 100% 0 0 100%;
     position: absolute;
     left: 312px;
-    top: 11px;
+    top: 26px;
     transform:rotate(-27deg);
 }
 
@@ -209,7 +209,7 @@ body{
    background: grey;
    position: absolute;
    left: 250px;
-   top: 100px;
+   top: 115px;
 }
 
 .tableware9{
@@ -219,8 +219,536 @@ body{
   border-radius: 100%;
   position: absolute;
   left: 320px;
-  top: 90px;
+  top: 105px;
 }
+
+.lip1{
+  width: 6px;
+  height: 45px;
+  background: rgb(250, 6, 75);
+  position: absolute;
+  left: 400px;
+  top: 70px;
+}
+
+.lip2{
+  width: 12px;
+  height: 20px;
+  background: rgb(250, 6, 75);
+  position: absolute;
+  left: 409px;
+  top: 60px;
+}
+
+.lip3{
+  width: 12px;
+  height: 30px;
+  background: rgb(250, 6, 75);
+  position: absolute;
+  left: 424px;
+  top:45px;
+}
+
+.lip4{
+  width: 12px;
+  height: 40px;
+  background: rgb(250, 6, 75);
+  position: absolute;
+  left: 440px;
+  top: 30px;
+}
+
+.lip5{
+  width: 12px;
+  height: 50px;
+  background: rgb(250, 6, 75);
+  position: absolute;
+  left: 457px;
+  top:17px;
+}
+
+.lip6{
+  width: 12px;
+  height: 45px;
+  background: rgb(250, 6, 75);
+  position: absolute;
+  left: 475px;
+  top:25px;
+}
+
+.lip7{
+  width: 12px;
+  height: 20px;
+  background: rgb(250, 6, 75);
+  position: absolute;
+  left: 409px;
+  top: 110px;
+}
+
+.lip8{
+  width: 12px;
+  height: 30px;
+  background: rgb(250, 6, 75);
+  position: absolute;
+  left: 424px;
+  top:117px;
+}
+
+.lip9{
+  width: 12px;
+  height: 40px;
+  background: rgb(250, 6, 75);
+  position: absolute;
+  left: 440px;
+  top: 125px;
+}
+
+.lip10{
+  width: 12px;
+  height: 50px;
+  background: rgb(250, 6, 75);
+  position: absolute;
+  left: 457px;
+  top:130px;
+}
+
+.lip11{
+  width: 12px;
+  height: 45px;
+  background: rgb(250, 6, 75);
+  position: absolute;
+  left: 475px;
+  top:125px;
+}
+
+.lip12{
+  width: 12px;
+  height: 30px;
+  background: rgb(250, 6, 75);
+  position: absolute;
+  left: 492px;
+  top:50px;
+}
+
+.lip13{
+  width: 12px;
+  height: 30px;
+  background: rgb(250, 6, 75);
+  position: absolute;
+  left: 492px;
+  top:120px;
+}
+
+.lip{
+  display: none;
+}
+
+
+.tongue1{
+  height: 6px;
+  width: 47px;
+  background: rgb(148, 34, 28);
+  position: absolute;
+  left:440px;
+  top: 117px;
+  display: none;
+}
+
+.tongue2{
+  height: 6px;
+  width: 85px;
+  background: rgb(148, 34, 28);
+  position: absolute;
+  left:425px;
+  top: 109px;
+  display: none;
+  
+}
+
+.tongue3{
+  height: 6px;
+  width: 70px;
+  background: rgb(148, 34, 28);
+  position: absolute;
+  left: 437px;
+  top: 100px;
+  display: none;
+}
+
+.tongue4{
+  height: 6px;
+  width: 60px;
+  background: rgb(148, 34, 28);
+  position: absolute;
+  left: 433px;
+  top: 91px;
+  display: none;
+}
+
+.tongue5{
+  height: 6px;
+  width: 50px;
+  background: rgb(148, 34, 28);
+  position: absolute;
+  left: 423px;
+  top: 82px;
+  display: none;
+}
+
+.tongue6{
+  height: 6px;
+  width: 21px;
+  background: black;
+  position: absolute;
+  left: 410px;
+  top: 90px;
+  display: none;
+}
+
+.tongue7{
+  height: 6px;
+  width: 18px;
+  background: black;
+  position: absolute;
+  left: 416px;
+  top: 98px;
+  display: none;
+}
+
+.mouthtube1{
+  height: 10px;
+  width: 20px;
+  background: rgb(248, 177, 212);
+  position: absolute;
+  left: 400px;
+  top: 135px;
+  display: none;
+}
+
+.mouthtube2{
+  height: 15px;
+  width: 40px;
+  background: rgb(248, 177, 212);
+  position: absolute;
+  left:395px;
+  top:150px;
+  display: none;
+}
+
+.mouthtube3{
+  height: 13px;
+  width: 64px;
+  background: rgb(248, 177, 212);
+  position: absolute;
+  left: 388px;
+  top: 170px;
+  display: none;
+}
+
+.mouthtube4{
+ height: 13px;
+ width: 180px;
+ background: rgb(248, 177, 212);
+ position: absolute;
+ left:395px;
+ top:188px;
+ display: none;
+}
+
+.mouthtube5{
+ height: 13px;
+ width: 50px;
+ background: rgb(248, 177, 212);
+ position: absolute;
+ left: 540px;
+ top: 170px;
+ display: none;
+}
+
+.mouthtube6{
+ height: 13px;
+ width: 100px;
+ background: rgb(248, 177, 212);
+ position: absolute;
+ left: 550px;
+ top: 153px;
+ display: none;
+}
+
+.i1{
+  height: 13px;
+  width: 70px;
+  background: rgb(248, 177, 212);
+  position: absolute;
+  left: 590px;
+  top: 135px;
+  display: none;
+}
+
+.i2{
+  height: 13px;
+  width: 40px;
+  background: rgb(248, 177, 212);
+  position: absolute;
+  left: 585px;
+  top: 118px;
+  display: none;
+}
+
+.i3{
+  height: 13px;
+  width: 40px;
+  background: rgb(248, 177, 212);
+  position: absolute;
+  left: 585px;
+  top: 100px;
+  display: none;
+}
+
+.i4{
+  height: 13px;
+  width: 40px;
+  background: rgb(248, 177, 212);
+  position: absolute;
+  left: 585px;
+  top: 82px;
+  display: none;
+}
+
+.i5{
+  height: 13px;
+  width: 40px;
+  background: rgb(248, 177, 212);
+  position: absolute;
+  left: 585px;
+  top: 64px;
+  display: none;
+}
+
+.i6{
+  height: 13px;
+  width: 40px;
+  background: rgb(248, 177, 212);
+  position: absolute;
+  left: 588px;
+  top: 48px;
+  transform: rotate(20deg);
+  display: none;
+}
+
+.i7{
+  height: 13px;
+  width: 40px;
+  background: rgb(248, 177, 212);
+  position: absolute;
+  left: 595px;
+  top: 37px;
+  transform: rotate(60deg);
+  display: none;
+}
+
+.i8{
+  height: 35px;
+  width: 13px;
+  background: rgb(248, 177, 212);
+  position: absolute;
+  left: 630px;
+  top: 24px;
+  display: none;
+}
+
+.i9{
+  height: 35px;
+  width: 13px;
+  background: rgb(248, 177, 212);
+  position: absolute;
+  left: 650px;
+  top: 24px;
+  display: none;
+}
+
+.i10{
+  height: 35px;
+  width: 13px;
+  background: rgb(245, 101, 173);
+  position: absolute;
+  left: 670px;
+  top: 24px;
+  display: none;
+}
+
+.side1{
+  height: 35px;
+  width: 42px;
+  background: rgba(248, 177, 212, .7);
+  border-radius: 50% 0px 0px 50%;
+  position: absolute;
+  left:540px;
+  top:24px;
+  display: none;
+}
+
+.stomachetube1{
+  height: 35px;
+  width: 13px;
+  background: rgb(245, 101, 173);
+  position: absolute;
+  left: 690px;
+  top: 24px;
+  display: none;
+}
+
+.stomachetube2{
+  height: 35px;
+  width: 13px;
+  background: rgb(245, 101, 173);
+  position: absolute;
+  left: 710px;
+  top: 24px;
+  display: none;
+}
+
+.stomachetube3{
+  height: 35px;
+  width: 13px;
+  background: rgb(245, 101, 173);
+  position: absolute;
+  left: 727px;
+  top: 22px;
+  transform: rotate(-10deg);
+  display: none;
+}
+
+.stomache1{
+  height: 50px;
+  width: 12px;
+  background: rgb(249, 21, 133);
+  position: absolute;
+  left: 755px;
+  top: 15px;
+  transform: rotate(-45deg);
+  display: none;
+}
+
+.stomache2{
+  height: 65px;
+  width: 12px;
+  background: rgb(249, 21, 133);
+  position: absolute;
+  left: 740px;
+  top: 25px;
+  transform: rotate(-70deg);
+  display: none;
+}
+
+.stomache3{
+  height: 12px;
+  width: 75px;
+  background: rgb(249, 21, 133);
+  position: absolute;
+  left: 700px;
+  top: 72px;
+  display: none;
+}
+
+.stomache4{
+  height: 12px;
+  width: 85px;
+  background: rgb(249, 21, 133);
+  position: absolute;
+  left: 690px;
+  top: 92px;
+  display: none;
+}
+
+.stomache5{
+  height: 12px;
+  width: 90px;
+  background: rgb(249, 21, 133);
+  position: absolute;
+  left: 690px;
+  top: 110px;
+  transform: rotate(-10deg);
+  display: none;
+}
+
+.stomache6{
+  height: 12px;
+  width: 85px;
+  background: rgb(249, 21, 133);
+  position: absolute;
+  left: 700px;
+  top: 128px;
+  transform: rotate(-25deg);
+  display: none;
+}
+
+.stomache7{
+  height: 70px;
+  width: 12px;
+  background: rgb(249, 21, 133);
+  position: absolute;
+  left: 750px;
+  top: 110px;
+  transform: rotate(40deg);
+  display: none;
+}
+
+.stomache8{
+  height: 55px;
+  width: 12px;
+  background: rgb(249, 21, 133);
+  position: absolute;
+  left: 770px;
+  top: 120px;
+  transform: rotate(15deg);
+  display: none;
+}
+
+.stomache9{
+  height: 50px;
+  width: 12px;
+  background: rgb(249, 21, 133);
+  position: absolute;
+  left: 787px;
+  top: 125px;
+  transform: rotate(5deg);
+  display: none;
+}
+
+.stomache10{
+  height: 45px;
+  width: 12px;
+  background: rgb(249, 21, 133);
+  position: absolute;
+  left: 804px;
+  top: 127px;
+  transform: rotate(5deg);
+  display: none;
+}
+
+.stomachetop{
+  height: 35px;
+  width: 35px;
+  background: rgb(249, 21, 133);
+  border-radius:  0px 50% 50% 0px;
+  position: absolute;
+  left:780px;
+  top:18px;
+  display: none;
+}
+
+.h1{
+  height: 40px;
+  width: 10px;
+  background: brown;
+}
+
+
+
+
+
+  
 
 
 
