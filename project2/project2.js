@@ -208,5 +208,4 @@ $(document).ready(function(){
   $('.shit1').delay(97500).show(2000);
   $('.shit2').delay(101000).show(2000);
   $('.shit3').delay(103000).show(2000);
-  
 });
