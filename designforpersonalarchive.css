@@ -10,11 +10,6 @@ h1{
 h2{
    font-family: "Adobe Gothic Std";
    text-align: center;
-}
-
-section{
    background: rgba(250, 173, 172, .5);
    width: 200px;
-   height: 50px;
-   margin: auto;
 }
