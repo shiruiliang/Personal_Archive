@@ -34,13 +34,13 @@ body{
     0.5%{ transform: translateX(125px);}
     1% { transform: translate(250px, 35px);}
     1.5%{ transform: translate(260px, 25px);}
-    3.5%{ transform: translate(290px, 70px);}
+    3.5%{ transform: translate(290px, 60px);}
     4%{ transform: translate(260px,100px);}
     6%{ transform: translate(250px, 145px);}
     6.5%{ transform: translate(360px, 145px);}
     8%{ transform: translate(430px, 90px);}
-    11%{ transform: translate(420px, 0px);}
-    15%{ transform: translate(575px, 0px);}
+    11%{ transform: translate(420px, -5px);}
+    15%{ transform: translate(575px, -5px);}
     17%{ transform: translate(555px, 70px);}
     19%{ transform: translate(585px, 105px);}
     20%{ transform: translate(660px, 105px);}
@@ -48,7 +48,30 @@ body{
     27%{ transform: translate(800px, 265px);}
     28%{ transform: translate(820px, 240px);}
     29%{ transform: translate(800px, 210px);}
-    100% { transform: translateY(900px);}
+    30%{ transform: translate(740px, 210px);}
+    31.5%{ transform: translate(740px, 150px);}
+    37%{ transform: translate(960px, 150px);}
+    40%{ transform: translate(960px, 265px);}
+    42%{ transform: translate(1050px, 265px);}
+    44%{ transform: translate(1050px, 145px);}
+    49%{ transform: translate(1170px, 280px);}
+    53.5%{ transform: translate(1170px, 145px);}
+    58%{ transform: translate(1380px, 145px);}
+    60.5%{ transform: translate(1380px, 223px);}
+    62%{ transform: translate(1490px, 223px);}
+    65%{ transform: translate(1490px, 290px);}
+    66%{ transform: translate(1550px, 290px);}
+    68%{ transform: translate(1550px, 210px);}
+    71%{ transform: translate(1650px, 210px);}
+    72%{ transform: translate(1700px, 290px);}
+    78%{ transform: translate(1700px, 640px);}
+    82%{ transform: translate(1950px, 640px);}
+    86.5%{ transform: translate(1950px, 290px);}
+    88.5%{ transform: translate(2140px, 290px);}
+    90.5%{ transform: translate(2140px, 430px);}
+    92%{ transform: translate(2000px, 430px);}
+    95%{ transform: translate(2140px, 640px);}
+    100% { transform: translate(2260px,540px);}
 }
 
 
@@ -359,6 +382,7 @@ body{
 
 .lip{
   display: none;
+  z-index: 3;
 }
 
 
@@ -784,6 +808,7 @@ body{
 /*I2*/
 .pancreas{
   display: none;
+  z-index: 3;
 }
 
 .pancreas1{
