@@ -3029,7 +3029,8 @@ body{
 .box{
   height: 50px;
   width: 50px;
-  left: 3200
+  position: absolute;
+  left: 3400px;
 }
 
 
