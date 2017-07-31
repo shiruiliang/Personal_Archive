@@ -208,5 +208,11 @@ $(document).ready(function(){
   $('.shit1').delay(97500).show(2000);
   $('.shit2').delay(101000).show(2000);
   $('.shit3').delay(103000).show(2000);
-  $('.cherry').delay(97000).fadeout(500);
+  window.setTimeout(function(){
+  $('.circle').css("background", "pink");
+},1800);
+
+  setTimeout(function(){
+$(".cherry").fadeOut(500);}
+,97500);
 });
