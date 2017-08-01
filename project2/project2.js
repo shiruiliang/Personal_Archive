@@ -208,11 +208,44 @@ $(document).ready(function(){
   $('.shit1').delay(97500).show(2000);
   $('.shit2').delay(101000).show(2000);
   $('.shit3').delay(103000).show(2000);
+  $('.content1').delay(110000).show(10000);
+  $('.content2').delay(117000).show(10000);
+  $('.content3').delay(116000).show(10000);
+  $('.content4').delay(116000).show(10000);
+  $('.content5').delay(116500).show(10000);
+  $('.content6').delay(118000).show(10000);
+  $('.content7').delay(119000).show(10000);
+  $('.content8').delay(118500).show(10000);
+  $('.content9').delay(119000).show(10000);
+  $('.content10').delay(116000).show(10000);
+  $('.content11').delay(116500).show(10000);
+  $('.content12').delay(117000).show(10000);
+  $('.content13').delay(117500).show(10000);
+  $('.content14').delay(119500).show(10000);
+  $('.content15').delay(110000).show(10000);
+  $('.content16').delay(115000).show(10000);
+  $('.content17').delay(111000).show(10000);
+  $('.content18').delay(111500).show(10000);
+  $('.content19').delay(110000).show(10000);
+  $('.content20').delay(115000).show(10000);
+  $('.content21').delay(118000).show(10000);
+  $('.content22').delay(117000).show(10000);
+  $('.content23').delay(115000).show(10000);
+  $('.content24').delay(116000).show(10000);
+  $('.content25').delay(115000).show(10000);
+  $('.content26').delay(114000).show(10000);
+  $('.content27').delay(113000).show(10000);
+  $('.content28').delay(112000).show(10000);
+  $('.content29').delay(111000).show(10000);
+  $('.content30').delay(110000).show(10000);
   window.setTimeout(function(){
   $('.circle').css("background", "pink");
 },1800);
 
-  setTimeout(function(){
-$(".cherry").fadeOut(500);}
-,97500);
+
+
+
+ $(".click").click(function(){
+    $(".show").slideToggle("slow");
+});
 });
