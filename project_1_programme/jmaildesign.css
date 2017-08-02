@@ -16,9 +16,12 @@ h2{
     font-family:"Avenir";
     font-weight: regular;
     font-size: 18px;
-    margin: 175px;
+    margin: 130px;
     color: white;
-    
+}
+
+h2:hover{
+   color: pink;
 }
 
 .smallheadings{
@@ -69,7 +72,7 @@ img{
 
 p{
     font-family: "Helvetica";
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .inbox{
