@@ -61,7 +61,10 @@ while: unknown amount of time
 
 .hide(); hide thing
 .show(); show thing
-.fadeIn
+.fadeIn(fast);
+.fadeOut(1000);
+.delay();
+.toggle();
  
  
          
