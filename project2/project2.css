@@ -3216,7 +3216,7 @@ p{
  top: 15px;
  font-family: "Century Gothic";
  font-size: 15px;
- width: 530px;
+ width: 520px;
  line-height: 25px;
  display: none;
 }
@@ -3291,16 +3291,16 @@ p{
  position: absolute;
  left: 1500px;
  top: 120px;
- width: 800px;
+ width: 170px;
  font-family: "Century Gothic";
  font-size: 30px;
  display: none;
 }
 .content25{
- width: 200px;
+ width: 110px;
  position: absolute;
- left: 1280px;
- top: 108px;
+ left: 1330px;
+ top: 65px;
  transform: rotate(90deg);
  font-family: "Century Gothic";
  font-size: 20px;
@@ -3310,7 +3310,6 @@ p{
  position: absolute;
  left: 1520px;
  top: 95px;
- width: 800px;
  font-family: "Century Gothic";
  font-size: 25px;
  color: rgb(100, 100, 100);
@@ -3344,7 +3343,6 @@ p{
  display: none;
 }
 .content30{
- width: 800px;
  position: absolute;
  left: 1130px;
  top: 98px;
@@ -3391,7 +3389,7 @@ p{
  display: none;
 }
 .content35{
- width: 560px;
+ width: 553px;
  position: absolute;
  left: 700px;
  top: 350px;
@@ -3430,7 +3428,7 @@ p{
  position: absolute;
  left: 700px;
  top: 575px;
- width: 300px;
+ width: 280px;
  font-size: 30px;
  line-height: 35px;
  display: none;
@@ -3439,7 +3437,7 @@ p{
  position: absolute;
  left: 450px;
  top: 470px;
- width: 300px;
+ width: 299px;
  transform: rotate(-90deg);
  font-size: 23px;
  color: rgb(170, 170, 170);
@@ -3449,7 +3447,7 @@ p{
  position: absolute;
  top: 360px;
  left: 30px;
- width: 490px;
+ width: 488px;
  font-size: 20px;
  color: rgb(120, 120, 120);
  display: none;
@@ -3542,9 +3540,9 @@ p{
 }
 .content53{
  position: absolute;
- left: 950px;
- top: 670px;
- width: 100px;
+ left: 960px;
+ top: 665px;
+ width: 86px;
  transform: rotate(90deg);
  font-size: 17px;
  display: none;
