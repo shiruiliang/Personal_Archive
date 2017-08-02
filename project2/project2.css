@@ -3051,6 +3051,9 @@ p{
   font-family: "American Typewriter";
 }
 
+.content{
+  font-family: "Century Gothic";
+}
 
 .content1{
   width: 50px;
@@ -3350,70 +3353,325 @@ p{
  display: none;
 }
 .content31{
- width: 250px;
+ width: 500px;
  position: absolute;
- left: 1600px;
- top: 370px;
+ left: 1300px;
+ top: 400px;
+ transform: rotate(10deg);
+ color: rgb(160, 160, 160);
+ display: none;
 }
 .content32{
- width: 775px;
  position: absolute;
- top: 400px;
- left: 20px;
+ left: 1210px;
+ width: 350px;
+ transform: rotate(180deg);
+ top: 470px;
+ font-size: 22px;
+ color: rgb(100, 100, 100);
+ display: none;
 }
 .content33{
- width: 200px;
+ width: 500px;
  position: absolute;
- left: 1600px;
- top: 425px;
+ left: 1300px;
+ top: 625px;
+ transform: rotate(-10deg);
+ color: rgb(160, 160, 160);
+ display: none;
 }
 .content34{
- width: 180px;
+ width: 200px;
  position: absolute;
- left: 1600px;
- top: 500px;
+ left: 1610px;
+ top: 520px;
+ font-size: 18px;
+ color: rgb(100, 100, 100);
+ display: none;
 }
 .content35{
- width: 800px;
+ width: 560px;
  position: absolute;
- left: 20px;
- top: 465px;
+ left: 700px;
+ top: 350px;
+ font-size: 30px;
+ color: rgb(150, 150, 150);
+ display: none;
 }
 .content36{
- width: 550px;
  position: absolute;
- left: 20px;
- top: 490px;
+ left: 1010px;
+ top: 528px;
+ width: 190px;
+ font-size: 13px;
+ transform: rotate(90deg);
+ line-height: 18px;
+ color: rgb(120, 120, 120);
+ display: none;
 }
 .content37{
- width: 750px;
  position: absolute;
- left: 20px;
- top: 515px;
+ left: 1221px;
+ top: 600px;
+ width: 110px;
+ font-size: 13px;
+ color: rgb(180, 180, 180);
+ display: none;
 }
 .content38{
  width: 800px;
  position: absolute;
  left: 20px;
  top: 540px;
+ display: none;
 }
 .content39{
- width: 780px;
  position: absolute;
- left: 20px;
- top: 585px;
+ left: 700px;
+ top: 575px;
+ width: 300px;
+ font-size: 30px;
+ line-height: 35px;
+ display: none;
+}
+.content40{
+ position: absolute;
+ left: 450px;
+ top: 470px;
+ width: 300px;
+ transform: rotate(-90deg);
+ font-size: 23px;
+ color: rgb(170, 170, 170);
+ display: none;
+}
+.content41{
+ position: absolute;
+ top: 360px;
+ left: 30px;
+ width: 490px;
+ font-size: 20px;
+ color: rgb(120, 120, 120);
+ display: none;
+}
+.content42{
+ position: absolute;
+ left: 90px;
+ top: 400px;
+ width: 250px;
+ font-size: 35px;
+ transform: rotate(90deg);
+ display: none;
 }
 
+.content44{
+ position: absolute;
+ left:1620px;
+ width:200px;
+ top: 470px;
+ font-size:30px;
+ transform: rotate(10deg);
+ display: none;
+}
+.content45{
+ position: absolute;
+ left: 1520px;
+ top: 510px;
+ transform: rotate(90deg);
+ font-size: 45px;
+ color: rgb(100, 100, 100);
+ display: none;
+}
+.content46{
+ position: absolute;
+ left:910px;
+ top:605px;
+ transform: rotate(90deg);
+ font-size:38px;
+ color: rgb(120, 120, 120);
+ display: none;
+}
+.content47{
+ position: absolute;
+ left: 1610px;
+ top: 513px;
+ width: 300px;
+ transform: rotate(10deg);
+ font-size: 20px;
+ display: none;
+}
+.content48{
+ position: absolute;
+ left: 1720px;
+ top: 508px;
+ font-size: 15px;
+ display: none;
+}
+.content49{
+ position: absolute;
+ left: 1610px;
+ top: 511px;
+ font-size: 12px;
+ transform: rotate(10deg);
+ display: none;
+}
+.content50{
+ position: absolute;
+ left: 1615px;
+ top: 585px;
+ color: rgb(120, 120, 120);
+ display: none;
+}
+.content51{
+ position: absolute;
+ left: 1220px;
+ top: 355px;
+ font-size: 25px;
+ color: rgb(90, 90, 90);
+ display: none;
+}
+.content52{
+ position: absolute;
+ left: 1230px;
+ transform: rotate(180deg);
+ font-size: 22px;
+ line-height: 38px;
+ top: 390px;
+ display: none;
+}
+.content53{
+ position: absolute;
+ left: 950px;
+ top: 670px;
+ width: 100px;
+ transform: rotate(90deg);
+ font-size: 17px;
+ display: none;
+}
+.content54{
+ position: absolute;
+ left: 905px;
+ top: 585px;
+ font-size: 15px;
+ display: none;
+}
+.content55{
+ position: absolute;
+ left: 490px;
+ top: 360px;
+ font-size: 40px;
+ color: rgb(150, 150, 150);
+ display: none;
+}
+.content56{
+ position: absolute;
+ left: 520px;
+ top: 405px;
+ width: 50px;
+ font-size: 25px;
+ line-height: 25px;
+ color: rgb(180, 180, 180);
+ display: none;
+}
+.content57{
+ position: absolute;
+ left: 340px;
+ top: 540px;
+ transform: rotate(90deg);
+ font-size: 80px;
+ color: rgb(100, 100, 100);
+ display: none;
+}
+.content58{
+ position: absolute;
+ left: 1220px;
+ top: 690px;
+ width: 100px;
+ font-size: 15px;
+ display: none;
+}
+.content59{
+ position: absolute;
+ left: -23px;
+ top: 635px;
+ font-size: 23px;
+ transform: rotate(-90deg);
+ color: rgb(150, 150, 150);
+ display: none;
+}
+.content60{
+ position: absolute;
+ left: 165px;
+ width: 10px;
+ top: 685px;
+ transform: rotate(-90deg);
+ font-size: 20px;
+ color: rgb(120, 120, 120);
+ display: none;
+}
+.content61{
+ position: absolute;
+ left: 315px;
+ top: 670px;
+ transform: rotate(90deg);
+ color: rgb(180, 180, 180);
+ display: none;
+}
 
+.sentence1{
+ color: red;
+ font-size: 40px;
+ position: absolute;
+ left: 2230px;
+ width: 500px;
+ top:150px;
+ font-family: "Impact";
+ display: none;
+}
 
+.button{
+  position: absolute;
+  left: 2340px;
+  top: 290px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  margin-bottom: 6px;
+  height: 100px;
+  width: 100px;
+  display: none;
+}
 
-
-
-
-
-
-
-
+.button:before {
+  content: 'click here';
+  font-family: "Impact";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30%;
+  width: 50%;
+  background: red;
+  -webkit-transform: skew(0deg, 6deg);
+  -moz-transform: skew(0deg, 6deg);
+  -ms-transform: skew(0deg, 6deg);
+  -o-transform: skew(0deg, 6deg);
+  transform: skew(0deg, 40deg);
+}
+.button:after {
+  content: 'to find "ce"';
+  font-family: "Impact";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 30%;
+  width: 50%;
+  background: red;
+  -webkit-transform: skew(0deg, -6deg);
+  -moz-transform: skew(0deg, -6deg);
+  -ms-transform: skew(0deg, -6deg);
+  -o-transform: skew(0deg, -6deg);
+  transform: skew(0deg, -40deg);
+}​
 
 
 
